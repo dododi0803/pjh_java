@@ -68,12 +68,12 @@ public class MainMethod {
                 // 주차 시간 총 몇분 입력
                 Scanner sc=new Scanner (System.in); // 시스템(컴퓨터)으로부터 입력된키 값 받기
                 
-                System.out.println("총 몇분 주차: "+"분");
+                System.out.println("총 몇분 주차: ");
                 int pTime = sc.nextInt(); // 키보드 입력 값 받아서 정수로 변환하여 변수에 저장
                 
                 
                 
-               pTime /= 10; 
+               pTime /= 10; // pTime = pTime / 10 
                if(pTime >= 24) { //4시간 이상 주차했다면   pTime >= 240
             	   cost=2500; //4시간 이상에 대한 기본요금 변경
             	   pTime-= 24; // 4시간 뺴기 , 4시간에 대한 요금은 2500원 나머지는 10분당 요금
