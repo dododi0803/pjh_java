@@ -148,22 +148,30 @@ public class LoopMain {
 		
 		
 		
-		int com =(int)Math.floor(Math.random()*50)+1;
-		while(true) {
-			System.out.println("1~50중 입력: ");
-			int user = sc.nextInt();
+//		int com =(int)Math.floor(Math.random()*50)+1;
+//		while(true) {
+//			System.out.println("1~50중 입력: ");
+//			int user = sc.nextInt();
+//	
+//		    if(user > com) {
+//		    	System.out.println("DOWN");
+//		    }
+//		    if(user < com) {
+//		    	System.out.println("UP");
+//		}
+//		    if(user == com) {
+//		    	System.out.println("정답!");
+//	          break;	   
+//		}
+//		}
 	
-		    if(user > com) {
-		    	System.out.println("DOWN");
-		    }
-		    if(user < com) {
-		    	System.out.println("UP");
-		}
-		    if(user == com) {
-		    	System.out.println("정답!");
-	          break;	   
-		}
-		}
+		
+		
+		
+		
+		
+		
+		
 		/*
 		 1월5일 과제
 		 
@@ -171,9 +179,70 @@ public class LoopMain {
 		 게임을 진행하면서 한판 끝날때마다 
 		 몇승,몇패,몇무 출력하기
 		
+	
+		 int winCount=0, loseCount=0, drawCount =0;
+		 
+		 for(int i=1; i<15; i++) {
+		 int com =(int)Math.floor(Math.random()*3)+1;
+		 System.out.println("1-가위,2-바위,3-보: ");
+		 int user = sc.nextInt();
+		
+         System.out.println("컴퓨터: "+com+"나:"+user);
+         
+         int res= user-com;
+         if(res == 0) {
+         System.out.println("비김");
+               drawCount++;
+        }else if(res==-2||res==1) {
+         System.out.println("나의 승리");
+           winCount++;
+           }else {
+            System.out.println("나의 패배");
+             loseCount++
+		 }
+		  System.out.println("승:"+winCount+"패:"+loseCount+"무:"+drawCount);
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
 		 
 		 
 		 */
+	
+		
+//		
+//     	int com =(int)Math.floor(Math.random()*3)+1;
+//		System.out.println("1-가위,2-바위,3-보: ");
+//		int user = sc.nextInt();
+//		
+//        System.out.println("컴퓨터: "+com+"나:"+user);
+//		
+//		
+//        if(user>com || (user ==1 && com==2)) {
+// 		   if(user ==2 && com ==1) {
+// 				System.out.println("나의 승");
+// 		   }else if(user ==1 && com ==2)
+// 			System.out.println("나의 패");
+// 		}else if(user ==2 && com ==3) {
+// 			System.out.println("나 승");
+// 		}else if(user ==3 && com ==2){
+// 			System.out.println("나의 패배...");
+// 		}
+//		
+		
+		
+		
+	
+		
+		
 		
 		
 		
