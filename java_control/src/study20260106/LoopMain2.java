@@ -63,11 +63,7 @@ public class LoopMain2 {
 		
 		
 		
-		
-		
-		
-		
-		
+
 		
 		
 		
