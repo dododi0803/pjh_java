@@ -78,7 +78,7 @@ public class ArrayMain {
 		
 		//과일을 한줄에 4개씩 세줄로 출력할 것이다.
 		
-		for(int i=0; i< fruits.length; i++);{
+		for(int i1=0; i1< fruits.length; i1++);{
 			if(i%4==0);
 			System.out.println();
 			
