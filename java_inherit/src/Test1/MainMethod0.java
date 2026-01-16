@@ -22,15 +22,40 @@ public class MainMethod0 {
 //		
 //		tv.control();
 		
-		Account account = new Account ("352-45451516-73","박주희",1000000);
-		
-		account.Account2();
-		
-		account.deposit(1000);
+//		Account account = new Account ("352-45451516-73","박주희",1000000);
+//		
+//		account.Account2();
+//		
+//		account.deposit(1000);
+//	
+//		account.withdraw(500);
+//	
+//		account.showAccount();
 	
-		account.withdraw(500);
+//		BankAccount bankaccount=new BankAccount ("홍길홍",50000);
+//	
+//        bankaccount.deposit(40000);
+//        bankaccount.withdraw(40000);
+//        bankaccount.withdraw(60000);
+//        bankaccount.printAccountInfo();
 	
-		account.showAccount();
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	}
 
 }
