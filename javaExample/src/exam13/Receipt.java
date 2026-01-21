@@ -7,6 +7,7 @@ public class Receipt {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
+		String[] str = {"라면","맥주","소주"};
 		
 		
 		
